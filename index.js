@@ -1,6 +1,7 @@
-const express = require("express")
-// import express from 'express'
-const dotenv = require("dotenv")
+// const express = require("express")
+import express from 'express'
+// const dotenv = require("dotenv")
+import dotenv from 'dotenv'
 const app = express()
 dotenv.config({
     path: './.env'
